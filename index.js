@@ -18,7 +18,7 @@ function partidas(vitoria, derrota) {
       nivel = "Imortal" 
   }
   
-  return `O Herói tem um saldo de ${saldoVitorias} e está no nível de ${nivel}`
+  console.log(`O Herói tem um saldo de ${saldoVitorias} e está no nível de ${nivel}`);
 }
 
-console.log(partidas(10, 5))
+partidas(10, 5);
